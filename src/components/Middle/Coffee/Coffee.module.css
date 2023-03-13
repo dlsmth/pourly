@@ -1,0 +1,48 @@
+
+.coffeeScrim {
+  background: #dbcbbd;
+  height: 40%;
+  opacity: .85;
+  position: absolute;
+  width: 40%;
+  z-index: 1000;
+}
+
+.coffeeImage {
+  margin: 16px 0 0 0;
+}
+
+.cup {
+  fill: #FFFFFF;
+  stroke: #231F20;
+  stroke-miterlimit: 10;
+}
+.handle {
+  fill: none;
+  stroke: #231F20;
+  stroke-miterlimit: 10;
+}
+
+.checkGray {
+  fill: #ddd;
+}
+
+.checkGreen {
+  fill: green;
+}
+
+.steam {
+  fill: none;
+  stroke: #231F20;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+
+.coffeeCup {
+  enable-background: new 0 0 150 150;
+}
+
+.coffeeLabel {
+  font-size: 1.15rem;
+  text-align: center;
+}

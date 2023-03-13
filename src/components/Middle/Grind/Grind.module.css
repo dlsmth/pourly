@@ -1,0 +1,122 @@
+
+.grindScrim {
+  background: #dbcbbd;
+  height: 40%;
+  opacity: .85;
+  position: absolute;
+  width: 40%;
+  z-index: 1000;
+}
+
+.grindBox {
+  position: initial;
+ }
+ 
+ .grindImage {
+   position: relative;
+   top: 17px;
+ }
+
+ .grindLabelBox {
+   position: absolute;
+   right: 3px;
+   width: 50%;
+ }
+ 
+ .grindLabel {
+  font-size: 1.15rem;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 40%;
+  z-index: 5;
+}
+
+.grindH2 {
+ background: #000;
+ border-radius: 10px;
+ color: #fff;
+ font-size: 1.15rem;
+ margin: 10px 0;
+ padding: .5rem .25rem;
+ text-align: center;
+ width: 100%;
+}
+
+.grindH2disabled {
+  background: #dbcbbd;
+  border-radius: 10px;
+  color: #87431d;
+  font-size: 1.15rem;
+  margin: 10px 0;
+  padding: .5rem .25rem;
+  text-align: center;
+  width: 100%;
+ }
+ 
+ .grinder {
+   fill: none;
+   stroke: #231F20;
+   stroke-miterlimit: 10;
+ }
+ 
+ /* .filling {
+   fill: #87431d;
+   width: 110px;
+   height: 40px;
+ } */
+
+.grinderBaseEmpty {
+  /* fill: #87431d; */
+  fill: none;
+}
+
+.grinderBaseFilled {
+  fill: #87431d;
+  /* fill: none; */
+}
+
+.filled {
+  fill: #87431d;
+}
+
+ .grinderGrindsBaseOutline {
+   fill: none;
+ }
+
+ .grinderGrindsBaseFilling {
+  fill: #87431d;
+}
+
+.grinderGrindsExtraFilling {
+  fill: #87431d;
+}
+
+.grinderGrindsExtraOutline {
+  fill: none;
+  /* width: 90px;
+  height: 60px;  */
+}
+
+.grinderDial {
+  fill: #333;
+}
+
+.grinderKnobTop {
+  fill: #999;
+}
+
+.grinderKnob {
+  fill: #a72424;
+}
+
+.seam {
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+ 
+ .setting {
+   font-size: 1.25rem;
+   text-align: center;
+ }
+ 

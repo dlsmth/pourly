@@ -1,0 +1,68 @@
+
+.pourScrim {
+  background: #dbcbbd;
+  height: 40%;
+  opacity: .85;
+  position: absolute;
+  width: 42%;
+  z-index: 1000;
+}
+
+.pourBox {
+  position: initial;
+ }
+ 
+ .pourImage {
+   position: relative;
+   top: 17px;
+ }
+
+ .pourLabelBox {
+   position: absolute;
+   right: 3px;
+   width: 50%;
+ }
+ 
+ .pourLabel {
+  font-size: 1.15rem;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 40%;
+  z-index: 5;
+}
+
+.pourH2 {
+ font-size: 1.15rem;
+ margin: 1rem 0 0 0;
+ text-align: center;
+ width: 100%;
+}
+
+.filter {
+  fill: #fff;
+  stroke: #000000;
+}
+
+.seam {
+  stroke: #000000;
+}
+
+.coffee {
+  fill: #87431d;
+}
+
+.bubble {
+  fill: #5c2c1190;
+  stroke: #000000;
+}
+
+.water {
+  fill: rgba(108, 144, 223, 0.625);
+}
+ 
+ .weight {
+   font-size: 1.25rem;
+   text-align: center;
+ }
+ 

@@ -1,0 +1,57 @@
+
+:root {
+  --brown-1: #290001;
+  --brown-2: #87431d;
+  --brown-3: #c87941;
+  --brown-4: #dbcbbd;
+}
+
+.footer {
+  background: var(--brown-2);
+  /* border-top: 1px dotted var(--brown-2); */
+  bottom: 0;
+  display: flex;
+  height: 50px;
+  justify-content: space-around;
+  padding: .75rem .5rem;
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+}
+
+p {
+  color: #333;
+}
+
+.controls {
+  /* color: var(--brown-4); */
+  /* font-size: 1rem; */
+}
+
+.controls p {
+  color: var(--white);
+  display: inline-block;
+  font-size: 1.25rem;
+  margin: 0;
+  padding: 0;
+}
+
+.lessons p {
+  color: var(--white);
+  display: inline-block;
+  font-size: 1.15rem;
+  margin: 0;
+  padding: 0;
+}
+
+.startBtn {
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  color: #87431d;
+  font-family: 'VT323';
+  font-size: 1.25rem;
+  display: inline-block;
+  margin-left: 12px;
+  padding: 0 6px;
+}

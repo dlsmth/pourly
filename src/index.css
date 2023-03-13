@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Open+Sans&family=VT323&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: 'VT323';
+}
+
+h1 {
+  font-family: 'Monoton';
+  font-size: 1.25rem;
+}
+

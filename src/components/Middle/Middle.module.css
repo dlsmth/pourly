@@ -1,0 +1,160 @@
+
+:root {
+  --brown-1: #290001;
+  --brown-2: #87431d;
+  --brown-3: #c87941;
+  --brown-4: #dbcbbd;
+}
+
+.middle {
+  background: var(--brown-1);
+  color: var(--brown-1);
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 220px);
+  justify-content: space-around;
+  position: fixed;
+  overflow: none;
+  padding: 0px;
+  top: 52px;
+  width: 100%;
+  z-index: 1;
+}
+
+.middle-top {
+  background: var(--brown-2);
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  padding: 1rem 1rem .5rem 1rem;
+  width: 100%;
+}
+
+.middle-top__left {
+  background: var(--brown-4);
+  /* border: 1px solid #290001; */
+  height: 100%;
+  margin-right: 8px;
+  width: 100%;
+}
+
+.middle-top__right {
+  background: var(--brown-4);
+  /* border: 10px solid #290001; */
+  height: 100%;
+  margin-left: 8px;
+  width: 100%;
+}
+
+.middle-bottom {
+  background: var(--brown-2);
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  padding: .5rem 1rem 1rem 1rem;
+  width: 100%;
+}
+
+.middle-bottom__left {
+  background: var(--brown-4);
+  /* border: 10px solid #290001; */
+  height: 100%;
+  /* padding: 1rem; */
+  margin-right: 8px;
+  width: 100%;
+}
+
+.middle-bottom__right {
+  background: var(--brown-4);
+  /* border: 10px solid #290001; */
+  height: 100%;
+  margin-left: 8px;
+  width: 100%;
+}
+
+.measure {
+  color: var(--brown-1);
+  position: relative;
+  text-align: center;
+  top: 100px;
+}
+
+.grind {
+  color: var(--brown-1);
+  position: relative;
+  text-align: center;
+  top: 100px;
+}
+
+.pour {
+  color: var(--brown-1);
+  position: relative;
+  text-align: center;
+  top: 100px;
+}
+
+.coffee {
+  color: var(--brown-1);
+  position: relative;
+  text-align: center;
+  top: 100px;
+}
+
+.rightArrow {
+  height: 30px;
+  width: 30px;
+  left: calc(50% - 15px);
+  top: calc(25% - 15px);
+  position: absolute;
+  z-index: 100;
+}
+
+.rightArrowArrow {
+	fill:#333;
+  enable-background: new 0 0 24 24;
+}
+
+.rightArrowBg {
+	fill: rgb(255, 255, 255, 0.75);
+  enable-background: new 0 0 24 24;
+}
+
+.downArrow {
+  height: 30px;
+  width: 30px;
+  left: calc(75% - 15px);
+  top: calc(50% - 15px);
+  position: absolute;
+  transform: rotate(90deg);
+  z-index: 100;
+}
+
+.downArrowArrow {
+	fill:#333;
+  enable-background: new 0 0 24 24;
+}
+
+.downArrowBg {
+	fill: rgb(255, 255, 255, 0.75);
+  enable-background: new 0 0 24 24;
+}
+
+.leftArrow {
+  height: 30px;
+  width: 30px;
+  left: calc(50% - 15px);
+  top: calc(75% - 15px);
+  position: absolute;
+  transform: rotate(180deg);
+  z-index: 100;
+}
+
+.leftArrowArrow {
+	fill:#333;
+  enable-background: new 0 0 24 24;
+}
+
+.leftArrowBg {
+	fill: rgb(255, 255, 255, 0.75);
+  enable-background: new 0 0 24 24;
+}

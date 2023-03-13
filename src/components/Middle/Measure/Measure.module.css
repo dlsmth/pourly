@@ -1,0 +1,71 @@
+
+.measureScrim {
+  background: #dbcbbd;
+  height: 40%;
+  opacity: .85;
+  position: absolute;
+  width: 42%;
+  z-index: 1000;
+}
+
+.measureBox {
+ position: initial;
+}
+
+.measureImage {
+  position: relative;
+}
+
+.measureCup {
+  margin-top: 16px;
+  /* position: absolute; */
+  width: 100%;
+  z-index: 2;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 12px;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+}
+
+.add {
+  height: 30px;
+  margin: 0 5px;
+  /* padding: 8px; */
+  width: 30px;
+}
+
+.subtract {
+  height: 30px;
+  margin: 0 5px;
+  /* padding: 8px; */
+  width: 30px;
+}
+
+.bin {
+  fill: none;
+  stroke: #231F20;
+  stroke-miterlimit: 10;
+  stroke-linecap: round;
+}
+
+.filling {
+  fill: #87431d;
+  /* width: 90px;
+  height: 40px; */
+}
+
+.measureLabel {
+  font-size: 1.15rem;
+  margin: 5px;
+  text-align: center;
+}
+
+.weight {
+  font-size: 1.25rem;
+  text-align: center;
+}

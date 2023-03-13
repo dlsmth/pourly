@@ -1,0 +1,87 @@
+
+:root {
+  --brown-1: #290001;
+  --brown-2: #87431d;
+  --brown-3: #c87941;
+  --brown-4: #dbcbbd;
+  --white: #fff;
+}
+
+.header {
+  background: var(--brown-2);
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  padding: .75rem 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.header p {
+  color: #fff;
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.timer p {
+  color: var(--white);
+}
+
+.timerP {
+  display: inline-block;
+}
+
+.startBtn {
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  color: #87431d;
+  font-family: 'VT323';
+  font-size: 1.25rem;
+  display: inline-block;
+  margin-left: 12px;
+  padding: 0 6px;
+}
+
+.playMode {
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: 1px;
+}
+
+.playMode p {
+  color: var(--white);
+}
+
+.closeBtnX {
+  fill: var(--white);
+}
+
+.closeBtnSvg {
+  width: 24px;
+  align-self: flex-end;
+}
+
+.closeBtnBox {
+  fill: none;
+  align-self: flex-end;
+}
+
+.stopwatchBtn {
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  color: #87431d;
+  font-family: 'VT323';
+  font-size: 1.25rem;
+  display: inline-block;
+  margin-left: 12px;
+  padding: 0 6px;
+}
+
+.score {
+  color: var(--brown-4);
+  font-size: 1.5rem;
+}
