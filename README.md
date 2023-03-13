@@ -6,7 +6,7 @@ I started drinking coffee during the pandemic, and got into learning how to make
 
 Current Status: Basic gameplay & learning modes built, along with UI. Additional game logic still needs to be written (a better scoring algorithm), along with various bugs, interactions & performance improvements. Super fun to build & use, in exploring global variables and more complex experiences with React. I've also since given up coffee, so this is my fun way to still do pour-overs.
 
-Note: This PWA is not optimized/usable on desktop. I'll update with desktop functionality when I get the time. In the meantime, just view the demo in mobile mode with the browser or just view it on your phone.
+Note: Built quickly as a PWA, this app is currently not optimized/usable on desktop. I'll refactor and update with desktop functionality when I get the time. In the meantime, please view the demo in mobile mode with the browser or on a phone.
 
 HTML, CSS, React, Redux, Firebase
 
