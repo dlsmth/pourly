@@ -14,4 +14,4 @@ Screenshot:
 
 ![slow paper screenshot](https://www.dalesmith.com/temp/pourly_screenshot.png)
  
-[View Demo](https://www.dalesmith.com/pourly)
+[View Demo](https://www.dlsmth.dev/pourly)
